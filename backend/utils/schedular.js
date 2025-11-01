@@ -1,5 +1,5 @@
 import cron from "node-cron";
-import Call from "./models/Call.js";
+import Call from "../models/call.js";
 import { initiateCall } from "../controllers/callController.js";
 
 cron.schedule("* * * * *", async () => {

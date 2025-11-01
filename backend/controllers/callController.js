@@ -1,5 +1,5 @@
 import axios from "axios";
-import Call from "./models/Call.js";
+import Call from "../models/call.js";
 
 const CALL_API = "http://localhost:5000/api/call";
 

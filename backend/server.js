@@ -2,7 +2,7 @@ import express from "express";
 import mongoose from "mongoose";
 import cors from "cors";
 import callRoutes from "./routes/callRoutes.js";
-import "./utils/scheduler.js";
+import "./utils/schedular.js";
 import dotenv from "dotenv";
 dotenv.config();
 const app = express();
